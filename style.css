@@ -1,4 +1,32 @@
+div{
+    font-size: large;
+}
 button{
-    width:100px;
-    height: 20px;
+    border: 2px grey solid;
+    background: rgb(25, 231, 183);
+    transition-duration: 0.5s;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 5px;
+}
+button:hover{
+    background: rgb(91, 114, 218);
+    color: white;
+}
+body{
+    align-items: center;
+    text-align: center;;
+}
+form{
+    margin-bottom: 5px;
+}
+fieldset{
+    border: none;
+    margin-bottom: none;
+}
+#obol{
+    border: 2px black solid;
+    margin: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
